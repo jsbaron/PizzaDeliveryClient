@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "bootstrap": "^4.1.3",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-router-dom": "^5.1.2",
@@ -37,5 +38,5 @@
     "@storybook/addons": "^5.2.6",
     "@storybook/react": "^5.2.6"
   },
-  "heroku-postbuild": "npm install && npm install --only=dev --no-shrinkwrap && npm install bootstrap && npm install react-bootstrap && npm run build"
+  "heroku-postbuild": "npm install && npm install --only=dev --no-shrinkwrap && npm install react-bootstrap bootstrap && npm run build"
 }
