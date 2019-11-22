@@ -36,5 +36,6 @@
     "@storybook/addon-links": "^5.2.6",
     "@storybook/addons": "^5.2.6",
     "@storybook/react": "^5.2.6"
-  }
+  },
+  "heroku-postbuild": "npm install && npm install --only=dev --no-shrinkwrap && npm install react-bootstrap bootstrap && npm run build"
 }
