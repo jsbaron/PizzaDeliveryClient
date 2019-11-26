@@ -8,7 +8,6 @@ import {
 import '../App.css';
 import MainHeader from "./MainHeader";
 import MainPage from './MainPage';
-import LocationPage from './LocationPage';
 import MenuPage from './MenuPage';
 import PizzaPage from './PizzaPage';
 
@@ -19,7 +18,6 @@ class App extends Component {
         <div>
           <MainHeader/>
           <Route exact path='/' component={MainPage}/>
-          <Route exact path='/locations' component={LocationPage}/>
           <Route path='/menus' component={MenuPage}/>
           <Route path='/pizzas' component={PizzaPage}/>
         </div>
